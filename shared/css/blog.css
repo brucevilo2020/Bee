@@ -1,0 +1,112 @@
+.blog{
+    width: 100%;
+}
+.blog .content{
+    margin: 50px auto;
+    max-width: 1100px;
+}
+.blog .content .r-flex{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    padding: 15px 0;
+}
+.blog .content .r-flex .desc a{
+   text-decoration: none;
+}
+.blog .content .r-flex .desc :hover{
+    opacity: .8;
+    background-color: #cf5023;
+    color: #f7f4ea;
+}
+.blog .content .r-flex .readmore a{
+    text-decoration: none;
+ }
+.blog .content .r-flex .readmore :hover{
+    opacity: .8;
+    background-color: #cf5023;
+    color: #f7f4ea;
+}
+.blog .content hr{
+    border: none;
+    height: 1px;
+    background-color: #cf5023; ;
+}    
+
+
+.blog_article{
+    width: 100%;
+    margin: 80px 0;
+}
+
+.blog_article .container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.blog_article .container .r-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    
+}
+
+.blog_article .container .r-flex .left_post{
+    width: 60%;
+}
+.blog_article .container .r-flex .left_post img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+    border-radius: 10px;
+}
+.blog_article .container .r-flex .left_post .desc h3{
+    padding-top: 20px;
+    font-weight: 700;
+    font-size: 18px;
+}
+.blog_article .container .r-flex .left_post .desc p{
+    font-size: 16px;
+}
+.blog_article .container .r-flex .center {
+    width: 10%;
+}
+.blog_article .container .r-flex .right_post {
+    width: 30%;
+}
+.blog_article .container .r-flex .right_post .header {
+    background-color: #cf5023;
+    color:#f7f4ea ;
+    
+   padding-left: 20px;
+   font-size: 32px;
+   font-weight: 500;
+}
+
+.blog_article .container .r-flex .right_post .flex{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0;
+}
+.blog_article .container .r-flex .right_post .flex .images{
+ 
+    width: 50%;
+}
+.blog_article .container .r-flex .right_post .flex .r-title{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+   margin-left: 10px;
+   font-size: 12px;
+   font-weight: 600;
+}
+.blog_article .container .r-flex .right_post .flex .r-title:hover{
+    background-color:#cf5023;
+    border-radius: 10px;
+    color:#f7f4ea ;
+    cursor: pointer;
+}
+.blog_article .container .r-flex .right_post .flex .images img{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+}

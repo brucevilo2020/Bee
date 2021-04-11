@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^a-bee-restaurant\.info
+RewriteRule (.*) http://www.a-bee-restaurant.info/$1 [R=301,L]
+RewriteCond %{THE_REQUEST} ^.*/index.html
+RewriteRule ^(.*)index.html$ http://www.a-bee-restaurant.info/$1 [R=301,L]
+Redirect permanent index.html http://www.a-bee-restaurant.info/index.php
+ErrorDocument 404 http://www.a-bee-restaurant.info/

@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+Allow: /sitemap.xml
+
+Sitemap: http://www.a-bee-restaurant.info/sitemap.xml
