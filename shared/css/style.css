@@ -611,11 +611,11 @@
 	height: 480px;
 }
 #news {
-	width: 340px;
-	float: left;
+	width: 30%;
+	/* float: left;
 	margin-left: 95px;
 	font-size: 14px;
-	line-height: 30px;
+	line-height: 30px; */
 }
 #news .date {
 	font-family:Georgia, "Times New Roman", Times, serif;
@@ -637,17 +637,27 @@
 	margin-bottom: 10px;
 }
 #facebook {
-	width: 340px;
-	float: right;
-	margin-right: 95px;
+	width: 30%;
+	/* float: right;
+	margin-right: 95px; */
 }
 #facebook .box {
 	padding: 20px;
 	height: 445px !important;
 }
 #group .box {
+	display: flex;
+    justify-content: center;
+	width: 350px;
+	margin: 0 auto;
 	height: 485px;
 	background:#fff;
+}
+#group{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center
 }
 #group h3 {
 	padding-bottom: 22px;
@@ -656,8 +666,9 @@
 }
 
 #instagram{
-	width:1000px;
-	margin:0 auto;
+	width: 30%;
+	/* width:1000px;
+	margin:0 auto; */
 }
 #instagram h3 {
 	padding-bottom: 22px;

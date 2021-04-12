@@ -77,19 +77,31 @@
 
 
   <section class="news_section">
-    <div class="container">
-        <div class="date">2021-03-01</div>
+  <div class="con">
+     <a href="news.php">
+     <div class="container">
+       <div class="date">2021-03-01</div>
         <div class="desc">者ルめそへ文総ぼレル更講めさッ注3田打学ゆずラ選平写ウタノヘ芸勉旋んめしだ</div>
+      </div>
+    </a>
     </div>
     <hr>
-    <div class="container">
-        <div class="date">2021-03-01</div>
+    <div class="con">
+     <a href="news.php">
+     <div class="container">
+       <div class="date">2021-03-01</div>
         <div class="desc">者ルめそへ文総ぼレル更講めさッ注3田打学ゆずラ選平写ウタノヘ芸勉旋んめしだ</div>
+      </div>
+    </a>
     </div>
     <hr>
-    <div class="container">
-        <div class="date">2021-03-01</div>
+    <div class="con">
+     <a href="news.php">
+     <div class="container">
+       <div class="date">2021-03-01</div>
         <div class="desc">者ルめそへ文総ぼレル更講めさッ注3田打学ゆずラ選平写ウタノヘ芸勉旋んめしだ</div>
+      </div>
+    </a>
     </div>
   </section>
   <div id="container">
@@ -467,13 +479,14 @@
       </div>
       
       <!--  #facebook --> 
-      <div id="instagram" class="content clearfix">
+  
+      <div id="facebook" class="">
     <h3><img src="shared/img/insta_h3.png" width="51" height="51" alt="Instagram" /></h3>
-    <ul id="instafeed"></ul>
+    <div class="box">
     <script src="https://apps.elfsight.com/p/platform.js" defer></script>
     <div class="elfsight-app-0d267bdc-d1b0-49ed-aeb9-bd2616a97dd7"></div>
     </div>
-
+    </div>
 
     </div>
     
