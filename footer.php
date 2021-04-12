@@ -1,28 +1,29 @@
+</main>
 <div id="footer">
   <div id="ft_group" class="none">
     <div class="contact_gr clearfix">
       <div class="box ft_contact_tel left_col">
-        <p><a href="tel:0337016930" onclick="ga('send','event','tel','click','sp_footer_phone');"><img src="shared/img/tel_B.png" width="100%" alt="tel" /></a></p>
+        <p><a href="tel:0337016930" onclick="ga('send','event','tel','click','sp_footer_phone');"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/tel_B.png" width="100%" alt="tel" /></a></p>
       </div>
       <div class="box ft_contact_map left_col">
-        <p><a href="https://goo.gl/maps/fwAttTrjyUk" target="_blank"><img src="shared/img/map_B.png" width="100%" alt="" /></a></p>
+        <p><a href="https://goo.gl/maps/fwAttTrjyUk" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/map_B.png" width="100%" alt="" /></a></p>
       </div>
       <div class="box up right_col">
-        <p><a href="#header"><img src="shared/img/up.png" width="100%" alt="up" /></a></p>
+        <p><a href="#header"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/up.png" width="100%" alt="up" /></a></p>
       </div>
     </div>
 
   </div>
-  <p id="f_logo"><img src="shared/img/f_logo.png" width="170" height="139" alt="フランス料理　aBee" /></p>
+  <p id="f_logo"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/f_logo.png" width="170" height="139" alt="フランス料理　aBee" /></p>
   <address>
-    <img src="shared/img/address.png" width="60" height="22" alt=" &copy; aBee" />
+    <img src="<?php echo get_template_directory_uri(); ?>/shared/img/address.png" width="60" height="22" alt=" &copy; aBee" />
   </address>
 </div>
 </div>
 
-<script type="text/javascript" src="shared/js/common.js"></script>
-<script type="text/javascript" src="shared/js/sp_nav.js"></script>
-<script src="shared/js/instagram.min.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/shared/js/common.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/shared/js/sp_nav.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/shared/js/instagram.min.js"></script>
 <script>
   var userFeed = new Instafeed({
     get: 'user',
@@ -190,6 +191,8 @@
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));
 </script>
+
+<?php wp_footer(); ?>
 </body>
 
 </html>
