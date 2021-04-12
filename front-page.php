@@ -2,7 +2,7 @@
 
 <section class="news_section">
     <div class="con">
-        <a href="news.php">
+        <a href="<?php echo get_permalink(get_page_by_path('News')) ?>">
             <div class="container">
                 <div class="date">2021-03-01</div>
                 <div class="desc">者ルめそへ文総ぼレル更講めさッ注3田打学ゆずラ選平写ウタノヘ芸勉旋んめしだ</div>
@@ -11,7 +11,7 @@
     </div>
     <hr>
     <div class="con">
-        <a href="news.php">
+        <a href="<?php echo get_permalink(get_page_by_path('News')) ?>">
             <div class="container">
                 <div class="date">2021-03-01</div>
                 <div class="desc">者ルめそへ文総ぼレル更講めさッ注3田打学ゆずラ選平写ウタノヘ芸勉旋んめしだ</div>
@@ -20,7 +20,7 @@
     </div>
     <hr>
     <div class="con">
-        <a href="news.php">
+        <a href="<?php echo get_permalink(get_page_by_path('News')) ?>">
             <div class="container">
                 <div class="date">2021-03-01</div>
                 <div class="desc">者ルめそへ文総ぼレル更講めさッ注3田打学ゆずラ選平写ウタノヘ芸勉旋んめしだ</div>
