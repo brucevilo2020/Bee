@@ -1,32 +1,32 @@
 <?php get_header(); ?>
 
 <section class="news_section">
-    <div class="con">
-        <a href="<?php echo get_permalink(get_page_by_path('News')) ?>">
-            <div class="container">
-                <div class="date">2021-03-01</div>
-                <div class="desc">者ルめそへ文総ぼレル更講めさッ注3田打学ゆずラ選平写ウタノヘ芸勉旋んめしだ</div>
+    <?php
+    $paged = (get_query_var('paged')) ? absint(get_query_var('paged')) : 1;
+
+    $args = array(
+        'post_type' => 'post',
+        'post_status' => 'publish',
+        'posts_per_page' => 3,
+        'paged' => $paged,
+    );
+
+    $the_query = new WP_Query($args);
+    ?>
+
+    <?php if ($the_query->have_posts()) : ?>
+        <?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
+            <div class="con">
+                <a href="<?php echo get_permalink(get_page_by_path('News')) ?>">
+                    <div class="container">
+                        <div class="date"><?php echo get_the_date('Y-m-d'); ?></div>
+                        <div class="desc"><?php echo the_title(); ?></div>
+                    </div>
+                </a>
             </div>
-        </a>
-    </div>
-    <hr>
-    <div class="con">
-        <a href="<?php echo get_permalink(get_page_by_path('News')) ?>">
-            <div class="container">
-                <div class="date">2021-03-01</div>
-                <div class="desc">者ルめそへ文総ぼレル更講めさッ注3田打学ゆずラ選平写ウタノヘ芸勉旋んめしだ</div>
-            </div>
-        </a>
-    </div>
-    <hr>
-    <div class="con">
-        <a href="<?php echo get_permalink(get_page_by_path('News')) ?>">
-            <div class="container">
-                <div class="date">2021-03-01</div>
-                <div class="desc">者ルめそへ文総ぼレル更講めさッ注3田打学ゆずラ選平写ウタノヘ芸勉旋んめしだ</div>
-            </div>
-        </a>
-    </div>
+            <hr>
+        <?php endwhile; ?>
+    <?php endif; ?>
 </section>
 <div id="container">
     <div id="lead" class="content clearfix sec_box">
