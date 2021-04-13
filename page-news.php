@@ -5,43 +5,38 @@
 <!-- body -->
 
 <section class="news">
-    <div class="content">
-        <div class="r-flex">
-            <div class="container">
-                <div class="images">
-                    <img src="<?php echo get_template_directory_uri(); ?>/shared/img/access_photo2.jpg" alt="photo1">
-                </div>
-                <div class="desc">
-                    <div class="date">03.29.2021</div>
-                    <div class="text">者ルめそへ文総ぼレル更講めさッ注3田
-                        打学ゆずラ選平写ウタノヘ芸勉旋ん
-                        めしだ...</div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="images">
-                    <img src="<?php echo get_template_directory_uri(); ?>/shared/img/access_photo2.jpg" alt="photo1">
-                </div>
-                <div class="desc">
-                    <div class="date">03.29.2021</div>
-                    <div class="text">者ルめそへ文総ぼレル更講めさッ注3田
-                        打学ゆずラ選平写ウタノヘ芸勉旋ん
-                        めしだ...</div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="images">
-                    <img src="<?php echo get_template_directory_uri(); ?>/shared/img/access_photo2.jpg" alt="photo1">
-                </div>
-                <div class="desc">
-                    <div class="date">03.29.2021</div>
-                    <div class="text">者ルめそへ文総ぼレル更講めさッ注3田
-                        打学ゆずラ選平写ウタノヘ芸勉旋ん
-                        めしだ...</div>
+    <?php
+    $paged = (get_query_var('paged')) ? absint(get_query_var('paged')) : 1;
+
+    $args = array(
+        'post_type' => 'post',
+        'post_status' => 'publish',
+        'posts_per_page' => 3,
+        'paged' => $paged,
+    );
+
+    $the_query = new WP_Query($args);
+    ?>
+
+    <?php if ($the_query->have_posts()) : ?>
+
+        <?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
+            <div class="content">
+                <div class="r-flex">
+
+                    <div class="container">
+                        <div class="images">
+                            <?php the_post_thumbnail(); ?>
+                        </div>
+                        <div class="desc">
+                            <div class="date"><?php echo get_the_date(); ?></div>
+                            <div class="text"><?php echo the_content(); ?></div>
+                        </div>
+                    </div>
+                <?php endwhile; ?>
+            <?php endif; ?>
                 </div>
             </div>
-        </div>
-    </div>
 </section>
 <!-- end of body -->
 <?php get_footer(); ?>
