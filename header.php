@@ -85,7 +85,7 @@
 
 			<div id="belt">
 				<h1>尾山台のフレンチ 「a Bee アベー」デート、記念日、クリスマスに</h1>
-				<a href="index.php">
+				<a href="<?php echo esc_url(home_url('/')); ?>">
 					<p id="logo"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/logo.png" width="166" height="134" alt=" aBee（アベー）" /></p>
 				</a>
 				<!--<p id="h_reserve"><a href="https://yoyaku.toreta.in/abee2013/#/" target="_blank" rel="nofollow" onclick="ga('send', 'event', 'Link', 'click', 'reserve');">WEB予約</a></p>-->
