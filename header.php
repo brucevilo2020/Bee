@@ -114,8 +114,8 @@
 							<li class="padd"><a href="#lunch"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/fix_nav3.png" width="137" height="60" alt="LUNCH" /></a></li>
 							<li><a href="#dinner"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/fix_nav4.png" width="150" height="60" /></a></li>
 							<li><a href="#wine"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/fix_nav5.png" width="121" height="60" alt="WINE" /></a></li>
-							<li><a href="<?php echo get_permalink(get_page_by_path('Blog')) ?>"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/nav7.png" alt="BLOG" width="134" height="40" class="over" /></a></li>
-							<li><a href="<?php echo get_permalink(get_page_by_path('News')) ?>"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/nav8.png" alt="NEWS" width="134" height="40" class="over" /></a></li>
+							<li><a href="<?php echo get_permalink(get_page_by_path('Blog')) ?>"><img class="pt-20" src="<?php echo get_template_directory_uri(); ?>/shared/img/nav7.png" alt="BLOG" width="134" height="40" class="over" /></a></li>
+							<li><a href="<?php echo get_permalink(get_page_by_path('News')) ?>"><img  class="pt-20" src="<?php echo get_template_directory_uri(); ?>/shared/img/nav8.png" alt="NEWS" width="134" height="40" class="over" /></a></li>
 						</ul>
 						<span></span>
 					</div>

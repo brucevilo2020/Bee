@@ -77,3 +77,6 @@ span, em, strong, dfn, code, samp, kbd, var, cite, abbr, acronym, q, br, ins, de
 .insta{
 	margin: 0 auto;
 }
+.pt-20{
+	padding-top: 10px;
+}

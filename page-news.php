@@ -19,10 +19,10 @@
     ?>
 
     <?php if ($the_query->have_posts()) : ?>
-
-        <?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
-            <div class="content">
+        <div class="content">
                 <div class="r-flex">
+        <?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
+          
 
                     <div class="container">
                         <div class="images">
