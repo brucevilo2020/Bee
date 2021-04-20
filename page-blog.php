@@ -6,7 +6,7 @@
 
 <section class="blog">
 
-    <div class="content">
+    <div class="contents">
         <?php
         $paged = (get_query_var('paged')) ? absint(get_query_var('paged')) : 1;
 

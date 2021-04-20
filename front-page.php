@@ -130,32 +130,67 @@
         </div>
         <div class="map content">
             <h3><img src="<?php echo get_template_directory_uri(); ?>/shared/img/about_tit.png" width="380" height="40" alt="経験" /></h3>
-            <div class="info1">
+            <div class="info1 map-none">
                 <p class="photo bnr1"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/map_photo1.jpg" width="283" height="248" alt="&quot;シェフ&quot;" class="over" /></p>
                 <p><img src="<?php echo get_template_directory_uri(); ?>/shared/img/map_tit1.png" width="283" height="35" alt="Belgique" /></p>
                 <p class="txt">有名なホテルのレストランで、<br />
                     魚料理のシェフを主に担当し、経験を積んだ。</p>
             </div>
-            <div class="info2">
+            <div class="info2 map-none">
                 <p class="photo bnr2"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/map_photo2.jpg" width="283" height="248" alt="ぶどう" class="over" /></p>
                 <p><img src="<?php echo get_template_directory_uri(); ?>/shared/img/map_tit2.png" width="283" height="35" alt="Alsace" /></p>
                 <p class="txt">ワイナリーやシャルキュトリーなどの<br />
                     専門店で働き、ぶどうの収穫や<br />
                     チーズ農家で飼育から製造工程まで学んだ。</p>
             </div>
-            <div class="info3">
+            <div class="info3 map-none">
                 <p class="photo bnr3"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/map_photo3.jpg" width="283" height="248" alt="店内" class="over" /></p>
                 <p><img src="<?php echo get_template_directory_uri(); ?>/shared/img/map_tit3.png" width="283" height="35" alt="Paris" /></p>
                 <p class="txt">レストランで前菜やメイン、デザート全ての<br />
                     工程を経験し、シェフとしての腕を磨いた。</p>
             </div>
-            <div class="info4">
+            <div class="info4 map-none">
                 <p class="photo bnr4"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/map_photo4.jpg" width="283" height="248" alt="ヤギ" class="over" /></p>
                 <p><img src="<?php echo get_template_directory_uri(); ?>/shared/img/map_tit4.png" width="283" height="35" alt="Rhone-Alpes" /></p>
                 <p class="txt">チーズ農家で知識を学び、<br />
                     2つのレストランで働いた後に<br />
                     フォアグラ農家でも経験を積んだ。</p>
             </div>
+                <div class="map-con">
+                <div class="shared_wrap">
+                <ul class="about_eff">
+                    <li>
+                       
+                            <p class="photo bnr1"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/map_photo1.jpg"  alt="&quot;シェフ&quot;" class="over" /></p>
+                            <p><img src="<?php echo get_template_directory_uri(); ?>/shared/img/map_tit1.png" width="100%"  height="auto" alt="Belgique" /></p>
+                            <p class="txt">有名なホテルのレストランで、<br />
+                                魚料理のシェフを主に担当し、経験を積んだ。</p>
+                     
+                    </li>
+                    <li>
+                     
+                            <p class="photo bnr2"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/map_photo2.jpg"  alt="ぶどう" class="over" /></p>
+                            <p><img src="<?php echo get_template_directory_uri(); ?>/shared/img/map_tit2.png"  width="100%" height="auto" alt="Alsace" /></p>
+                            <p class="txt">ワイナリーやシャルキュトリーなどの<br />
+                                専門店で働き、ぶどうの収穫や<br />
+                     
+                    </li>
+                    <li>
+                        <p class="photo bnr3"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/map_photo3.jpg" alt="店内" class="over" /></p>
+                        <p><img src="<?php echo get_template_directory_uri(); ?>/shared/img/map_tit3.png" width="100%" height="auto" alt="Paris" /></p>
+                        <p class="txt">レストランで前菜やメイン、デザート全ての<br />
+                            工程を経験し、シェフとしての腕を磨いた。</p>
+                    </li>
+                    <li>
+                        <p class="photo bnr4"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/map_photo4.jpg"  alt="ヤギ" class="over" /></p>
+                        <p><img src="<?php echo get_template_directory_uri(); ?>/shared/img/map_tit4.png" width="100%" height="auto" alt="Rhone-Alpes" /></p>
+                        <p class="txt">チーズ農家で知識を学び、<br />
+                            2つのレストランで働いた後に<br />
+                            フォアグラ農家でも経験を積んだ。</p>
+                    </li>
+                </ul>
+            </div>
+                </div>
         </div>
     </div>
     <!--about -->
@@ -406,7 +441,7 @@
 
         <!--  #facebook -->
 
-        <div id="facebook" class="">
+        <div id="instagram" >
             <h3><img src="<?php echo get_template_directory_uri(); ?>/shared/img/insta_h3.png" width="51" height="51" alt="Instagram" /></h3>
             <div class="box">
                 <script src="https://apps.elfsight.com/p/platform.js" defer></script>

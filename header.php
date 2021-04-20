@@ -9,6 +9,7 @@
 	<meta http-equiv="Content-Script-Type" content="text/javascript" />
 	<meta http-equiv="Content-Style-Type" content="text/css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="target-densitydpi=device-dpi, width=100%, maximum-scale=1.0, user-scalable=yes">
 	<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/shared/img/favicon.ico" />
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/shared/font/fontello.css" type="text/css" />
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/shared/css/common.css" type="text/css" />
@@ -52,7 +53,6 @@
 
 		ga('create', 'UA-44704774-52', 'auto');
 		ga('send', 'pageview');
-	</script>
 	<?php wp_head(); ?>
 </head>
 
@@ -71,7 +71,9 @@
 							<li><a href="#dinner"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/sp_nav_04.png" width="100%" alt="DINNER"></a></li>
 							<li><a href="#wine"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/sp_nav_05.png" width="100%" alt="WINE"></a></li>
 							<li><a href="#access"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/sp_nav_06.png" width="100%" alt="ACCESS"></a></li>
-							<li><a class="telhref" href="tel:0337016930" onclick="ga('send', 'event', 'tel', 'click', 'header_phone');"><img src="shared/img/sp_tel.png" width="100%" alt="tel"></a></li>
+							<li><a href="<?php echo get_permalink(get_page_by_path('Blog')) ?>"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/sp_nav_07.png" width="100%" alt="BLOG"></a></li>
+							<li><a href="<?php echo get_permalink(get_page_by_path('News')) ?>"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/sp_nav_08.png" width="100%" alt="NEWS"></a></li>
+							<li><a class="telhref" href="tel:0337016930" onclick="ga('send', 'event', 'tel', 'click', 'header_phone');"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/sp_tel.png" width="100%" alt="tel"></a></li>
 						</ul>
 						<span class="mat"><span class="mat1"></span><span class="mat2"></span><span class="mat3"></span><span class="mat4"></span><span class="mat5"></span></span>
 					</div>
@@ -84,22 +86,25 @@
 			</div>
 
 			<div id="belt">
-				<h1>尾山台のフレンチ 「a Bee アベー」デート、記念日、クリスマスに</h1>
-				<a href="index.php">
+				
+				<ul id="globalNav">
+					<li class="current"><a href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/nav1.png" width="120" height="40" alt="TOP" class="over" /></a></li>
+					<li><a href="#about"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/nav2.png" width="120" height="40" alt="ABOUT" class="over" /></a></li>
+					<li><a href="#lunch"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/nav3.png" width="120" height="40" alt="LUNCH " class="over" /></a></li>
+					<li class=""><a href="#dinner"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/nav4.png" width="125" height="40" alt="DINNER" class="over" /></a></li>
+					<li class="m20">
+					<h1>尾山台のフレンチ 「a Bee アベー」デート、記念日、クリスマスに</h1>
+				<a href="<?php echo esc_url(home_url('/')); ?>">
 					<p id="logo"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/logo.png" width="166" height="134" alt=" aBee（アベー）" /></p>
 				</a>
 				<!--<p id="h_reserve"><a href="https://yoyaku.toreta.in/abee2013/#/" target="_blank" rel="nofollow" onclick="ga('send', 'event', 'Link', 'click', 'reserve');">WEB予約</a></p>-->
 				<p id="h_tel"><a class="telhref" href="tel:0337016930" onclick="ga('send', 'event', 'tel', 'click', 'header_phone');"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/h_tel.png" width="229" height="45" alt="tel 03-3701-6930" /></a></p>
 
-				<ul id="globalNav">
-					<li class="current"><a href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/nav1.png" width="120" height="40" alt="TOP" class="over" /></a></li>
-					<li><a href="#about"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/nav2.png" width="120" height="40" alt="ABOUT" class="over" /></a></li>
-					<li><a href="#lunch"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/nav3.png" width="120" height="40" alt="LUNCH " class="over" /></a></li>
-					<li class="padd"><a href="#dinner"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/nav4.png" width="125" height="40" alt="DINNER" class="over" /></a></li>
+					</li>
 					<li><a href="#wine"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/nav5.png" width="120" height="40" alt="WINE" class="over" /></a></li>
 					<li><a href="#access"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/nav6.png" alt="ACCESS" width="134" height="40" class="over" /></a></li>
 					<li><a href="<?php echo get_permalink(get_page_by_path('Blog')) ?>"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/nav7.png" alt="BLOG" width="134" height="40" class="over" /></a></li>
-					<li><a href="<?php echo get_permalink(get_page_by_path('News')) ?>"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/nav8.png" alt="NEWS" width="134" height="40" class="over" /></a></li>
+					<li class="pr20"><a href="<?php echo get_permalink(get_page_by_path('News')) ?>"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/nav8.png" alt="NEWS" width="134" height="40" class="over" /></a></li>
 
 				</ul>
 			</div>

@@ -55,17 +55,17 @@ var isMobile = {
 	}
 };
 
-$(document).ready(function () {
+// $(document).ready(function () {
 	
-	if (isMobile.any()){
-		$("#nav_sp").css("display", "block");
-		$("#navTrigger").css("display", "block");
-		$("#ft_group").css("display", "block");
-	} 
-	else{
-		$("#nav_sp").css("display", "none");
-		$("#navTrigger").css("display", "none");
-		$("#ft_group").css("display", "none");
-	}
+// 	if (isMobile.any()){
+// 		$("#nav_sp").css("display", "block");
+// 		$("#navTrigger").css("display", "block");
+// 		$("#ft_group").css("display", "block");
+// 	} 
+// 	else{
+// 		$("#nav_sp").css("display", "none");
+// 		$("#navTrigger").css("display", "none");
+// 		$("#ft_group").css("display", "none");
+// 	}
 	
-});
+// });
