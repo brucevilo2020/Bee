@@ -199,10 +199,10 @@
         <h2 class="center"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/lunch_h2.png" width="140" height="35" alt="LUNCH" /></h2>
         <div class="shared_wrap">
             <ul class="photo_eff">
-                <li><img src="<?php echo get_template_directory_uri(); ?>/shared/img/lunh_photo1.jpg" width="471" height="350" alt="ランチ1" /></li>
-                <li><img src="<?php echo get_template_directory_uri(); ?>/shared/img/lunh_photo2.jpg" width="471" height="350" alt="ランチ2" /></li>
-                <li><img src="<?php echo get_template_directory_uri(); ?>/shared/img/lunh_photo3.jpg" width="471" height="350" alt="ランチ3" /></li>
-                <li><img src="<?php echo get_template_directory_uri(); ?>/shared/img/lunh_photo4.jpg" width="471" height="350" alt="ランチ4" /></li>
+                <li><img src="<?php echo get_template_directory_uri(); ?>/shared/img/lunh_photo1.jpg" width="100%" height="auto" alt="ランチ1" /></li>
+                <li><img src="<?php echo get_template_directory_uri(); ?>/shared/img/lunh_photo2.jpg" width="100%" height="auto" alt="ランチ2" /></li>
+                <li><img src="<?php echo get_template_directory_uri(); ?>/shared/img/lunh_photo3.jpg" width="100%" height="auto" alt="ランチ3" /></li>
+                <li><img src="<?php echo get_template_directory_uri(); ?>/shared/img/lunh_photo4.jpg" width="100%" height="auto" alt="ランチ4" /></li>
             </ul>
         </div>
         <div class="info">
@@ -289,7 +289,7 @@
         <div class="bnr">-->
 
                 <div class="course">
-                    <p style="font-size:16px; margin-bottom:0.8em;">シェフの特別コース</p>
+                    <p style="margin-bottom:0.8em;">シェフの特別コース</p>
                     <p><span class="f_eng">7,500</span>円(税込)<br />
                         <span class="f_eng">8,800</span>円(税込)
                     </p>

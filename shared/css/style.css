@@ -29,11 +29,11 @@
 		padding-left: 0;
 		color: #cf5023;
 		font-weight: bold;
-		font-size: 15px;
+		font-size: 18px;
 		position: relative;
 		top: 200px;
 		margin: 0 auto;
-		width: 436px;
+		width: 530px;
 	}
 }
 #slider_img {
@@ -323,6 +323,9 @@
 @media (max-width:600px) {
 	.map-con .shared_wrap {
 		width: 70%;
+	} 
+	.txt{
+		font-size: 18px;
 	}
 }
 
@@ -416,6 +419,7 @@
 }
 @media (max-width:600px) {
 	#lunch .shared_wrap {
+		/* width: 70%; */
 		position: relative;
 		margin: 0 auto;
 		top: 30px;
@@ -448,7 +452,16 @@
 #lunch .info h3 {
 	font-size: 16px;
 	padding-bottom: 32px;
+	padding-top: 0;
 }
+@media (max-width:600px) 
+{
+	#lunch .info h3 {
+		padding-top: 20px;
+		font-size: 24px;
+	}
+}
+
 #lunch .info h4 {
 	padding-bottom: 10px;
 }
@@ -459,6 +472,7 @@
 }
 @media (max-width:600px) {
 	#lunch .menu_list {
+		font-size: 18px;
 		width: auto;
 		margin-left: 0;
 	}
@@ -480,6 +494,7 @@
 }
 @media (max-width:600px) {
 	#dinner .content {
+		font-size: 18px;
 		background:none;
 	}
 	
@@ -536,11 +551,18 @@
 	font-size: 16px;
 	padding-bottom: 32px;
 }
+@media (max-width:600px) {
+	#dinner h3 {
+		font-size: 24px;
+		padding-top: 20px;
+	}
+}
 #dinner h4 {
 	padding-bottom: 10px;
 }
 #dinner .menu_list {
 	margin-bottom: 25px;
+	font-size: 18px;
 }
 #dinner .menu_list dl.padd {
 	padding-bottom:30px;
@@ -563,6 +585,11 @@
 	padding-top:20px;
 	padding-bottom:20px;
 	margin-bottom:30px;
+}
+@media (max-width:600px) {
+	#dinner .course{
+		font-size: 18px;
+	}
 }
 
 .menu_list {
@@ -652,6 +679,7 @@
 }
 #wine #tab_navi .tab1 span {
 	background:url(../img/wine_tab1.png) no-repeat 0 0;
+	background-size: 100%, 100%;
 }
 #wine #tab_navi .tab1 span:hover, #wine #tab_navi .tab1 .active {
 	background:url(../img/wine_tab1_on.png) no-repeat 0 0;
@@ -682,6 +710,11 @@
 	line-height: 32px;
 	padding: 13px 0 15px 30px;
 }
+@media (max-width:600px) {
+	#wine #tab_content ul {
+		font-size: 18px;
+	}	
+}
 #wine #tab_content ul.reactive {
 	height: 0;
 	padding: 0px 0 0px 30px;
@@ -689,12 +722,19 @@
 }
 #wine .shared {
 	float: left;
-	width: 500px;
+	width: 100%;
 }
+
 #wine .shared p {
 	color: #a06450;
 	font-size: 14px;
 	padding-bottom: 15px;
+}
+@media (max-width:600px) {
+	#wine .shared  p{
+		font-size: 18px;
+	}
+	
 }
 #wine .bnr {
 	text-align: center;
@@ -725,6 +765,7 @@
 		position: relative;
 		bottom: 360px;
 		margin: 0 auto;
+		font-size: 18px;
 	}
 }
 #access .info p {
@@ -743,7 +784,7 @@
 @media (max-width:600px) {
 	#access .shared_wrap {
 		position: relative;
-		top: 415px;
+		top: 455px;
 		margin: 0 auto;
 		right: 0;
 	}	
@@ -782,7 +823,7 @@
 	#access .contact .tel {
 		position: relative;
 		top: 10px;
-		right: 70px;
+		right: 100px;
 		width: 248px;
 		margin: 0 auto;
 	}
@@ -799,10 +840,11 @@
 	
 	#access .contact .tel_txt {
 	    position: relative;
-    top: -150px;
-    right: 0;
-    width: auto;
-    text-align: center;
+		top: -150px;
+		right: 0;
+		width: auto;
+		text-align: center;
+		font-size:18px;
 	}
 }
 

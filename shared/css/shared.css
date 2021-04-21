@@ -232,6 +232,12 @@ h1 {
 #container {
   padding-bottom: 50px;
 }
+@media (max-width:600px) 
+{
+  #container {
+    font-size: 18px;
+  }
+}
 .content {
   width: 1000px;
   margin: 0 auto;
