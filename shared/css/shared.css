@@ -16,12 +16,24 @@ body {
   min-width: 1000px;
   width: 100%;
 }
+@media (max-width:600px) {
+body{
+  font: normal normal 100%/1.45 "Lucida Grande", "Hiragino Kaku Gothic ProN",
+    "?????? ProN W3", Meiryo, sans-serif;
+}
+}
 .mincho {
   font-family: "?????? Pro W3", "Hiragino Mincho Pro", "MS P??",
     "MS PMincho", serif, "MS P????", "MS PGothic", sans-serif;
 }
 .f_eng {
   font-family: Georgia, "Times New Roman", Times, serif;
+}
+@media (max-width:600px) {
+  .f_eng {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 22px;
+  }
 }
 #wrapper {
   overflow: hidden;

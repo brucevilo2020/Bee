@@ -236,10 +236,10 @@
             <h2 class="center"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/dinner_h2.png" width="140" height="35" alt="DINNER" /></h2>
             <div class="shared_wrap">
                 <ul class="photo_eff">
-                    <li><img src="<?php echo get_template_directory_uri(); ?>/shared/img/dinner_photo1.jpg" width="471" height="350" alt="ディナー1" /></li>
-                    <li><img src="<?php echo get_template_directory_uri(); ?>/shared/img/dinner_photo2.jpg" width="471" height="350" alt="ディナー2" /></li>
-                    <li><img src="<?php echo get_template_directory_uri(); ?>/shared/img/dinner_photo3.jpg" width="471" height="350" alt="ディナー3" /></li>
-                    <li><img src="<?php echo get_template_directory_uri(); ?>/shared/img/dinner_photo4.jpg" width="471" height="350" alt="ディナー4" /></li>
+                    <li><img src="<?php echo get_template_directory_uri(); ?>/shared/img/dinner_photo1.jpg" width="100%" height="auto" alt="ディナー1" /></li>
+                    <li><img src="<?php echo get_template_directory_uri(); ?>/shared/img/dinner_photo2.jpg" width="100%" height="auto" alt="ディナー2" /></li>
+                    <li><img src="<?php echo get_template_directory_uri(); ?>/shared/img/dinner_photo3.jpg" width="100%" height="auto" alt="ディナー3" /></li>
+                    <li><img src="<?php echo get_template_directory_uri(); ?>/shared/img/dinner_photo4.jpg" width="100%" height="auto" alt="ディナー4" /></li>
                 </ul>
             </div>
             <div class="info">
@@ -362,9 +362,9 @@
             <h2 class="center"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/access_h2.png" width="140" height="35" alt="ACCESS" /></h2>
             <div class="shared_wrap">
                 <ul class="photo_eff">
-                    <li><img src="<?php echo get_template_directory_uri(); ?>/shared/img/access_photo1.jpg" width="471" height="350" alt="外観" /></li>
-                    <li><img src="<?php echo get_template_directory_uri(); ?>/shared/img/access_photo2.jpg" width="471" height="350" alt="内観1" /></li>
-                    <li><img src="<?php echo get_template_directory_uri(); ?>/shared/img/access_photo3.jpg" width="471" height="350" alt="内観2" /></li>
+                    <li><img src="<?php echo get_template_directory_uri(); ?>/shared/img/access_photo1.jpg" width="100%" height="auto" alt="外観" /></li>
+                    <li><img src="<?php echo get_template_directory_uri(); ?>/shared/img/access_photo2.jpg" width="100%" height="auto" alt="内観1" /></li>
+                    <li><img src="<?php echo get_template_directory_uri(); ?>/shared/img/access_photo3.jpg" width="100%" height="auto" alt="内観2" /></li>
                 </ul>
             </div>
             <div class="info">

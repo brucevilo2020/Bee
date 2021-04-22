@@ -14,6 +14,18 @@
 .blog .contents .r-flex .desc a{
    text-decoration: none;
 }
+.blog .contents .r-flex .date{
+    width: 20%;
+    text-align: center;
+ }
+ .blog .contents .r-flex .desc{
+    width: 60%;
+    text-align: center;
+ }
+ .blog .contents .r-flex .readmore{
+    width: 20%;
+    text-align: center;
+ }
 .blog .contents .r-flex .desc :hover{
     opacity: .8;
     background-color: #cf5023;
@@ -32,7 +44,7 @@
     height: 1px;
     background-color: #cf5023; ;
 }    
-
+/*==========================BLOG ARTICLE =================================*/
 
 .blog_article{
     width: 100%;
