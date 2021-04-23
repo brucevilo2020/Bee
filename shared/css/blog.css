@@ -8,7 +8,7 @@
 .blog .contents .r-flex{
     display: flex;
     justify-content: space-around;
-    font-size: 20px;
+    font-size: 16px;
     padding: 15px 0;
 }
 .blog .contents .r-flex .desc a{
@@ -88,15 +88,15 @@
     text-align: center;
     padding-top: 20px;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 14px;
 }
 .blog_article .container .r-flex .left_post .desc p{
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
 }
 @media (max-width:768px) {
     .blog_article .container .r-flex .left_post .desc p{
-        font-size: 18px;
+        font-size: 16px;
     }
 }
 .blog_article .container .r-flex .center {

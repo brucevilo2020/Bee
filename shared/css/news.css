@@ -98,7 +98,7 @@
     transition: transform 1s;
     margin-top: 10px;
     padding: 10px;
-    font-size:20px;
+    font-size:16px;
    }
    .news .content .r-flex .container .desc:hover{
     background-color: #cf5023;

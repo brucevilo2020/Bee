@@ -56,8 +56,8 @@
 
     <div id="about" class="sec_box">
         <div class="lead content">
-            <h2><img src="<?php echo get_template_directory_uri(); ?>/shared/img/about_h2.png" width="380" height="55" alt="ABOUT" /></h2>
-
+            <h2 class="pc"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/about_h2.png" width="380" height="55" alt="ABOUT" /></h2>
+            <h2 class="sp"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/sp/about_h2.png" width="262px" height="auto" alt="ABOUT" /></h2>
             <p>ベルギー、フランスでは<br />
                 料理の腕を磨くとともに、現地で食材が出来るまでの過程も体験しました。<br />
                 水や土、育て方ひとつで変わる、素材の味。<br />
@@ -196,7 +196,8 @@
     <!--about -->
 
     <div id="lunch" class="content sec_box">
-        <h2 class="center"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/lunch_h2.png" width="140" height="35" alt="LUNCH" /></h2>
+             <h2 class=" center pc"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/lunch_h2.png" width="140" height="55" alt="LUNCH" /></h2>
+            <h2 class=" center sp"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/sp/lunch_h2.png" width="262px" height="auto" alt="LUNCH" /></h2>
         <div class="shared_wrap">
             <ul class="photo_eff">
                 <li><img src="<?php echo get_template_directory_uri(); ?>/shared/img/lunh_photo1.jpg" width="100%" height="auto" alt="ランチ1" /></li>
@@ -223,17 +224,18 @@
             </p>
         </div>
         <div class="txt_note">
-            <p align="center">※ランチはご予約で定員になり次第、終了させていただきます。</p>
+            <p class="center">※ランチはご予約で定員になり次第、終了させていただきます。</p>
         </div>
 
-        <p align="center"><a href="#" target="_blank" rel="nofollow"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/lunch_bnr.jpg" width="390" height="40" alt="最新のランチメニュー" class="over" /></a></p>
+        <p class="center"><a href="#" target="_blank" rel="nofollow"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/lunch_bnr.jpg" width="390" height="40" alt="最新のランチメニュー" class="over" /></a></p>
     </div>
 
     <!--  #lunch -->
 
     <div id="dinner" class="sec_bg sec_box">
         <div class="content clearfix">
-            <h2 class="center"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/dinner_h2.png" width="140" height="35" alt="DINNER" /></h2>
+            <h2 class="center pc"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/dinner_h2.png" width="140" height="35" alt="DINNER" /></h2>
+            <h2 class="center sp"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/sp/dinner_h2.png" width="262px" height="auto" alt="DINNER" /></h2>
             <div class="shared_wrap">
                 <ul class="photo_eff">
                     <li><img src="<?php echo get_template_directory_uri(); ?>/shared/img/dinner_photo1.jpg" width="100%" height="auto" alt="ディナー1" /></li>
@@ -309,7 +311,8 @@
     <!--  #img_fix -->
 
     <div id="wine" class="content sec_box">
-        <h2 class="center"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/wine_h2.png" width="140" height="35" alt="WINE" /></h2>
+        <h2 class="center pc"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/wine_h2.png" width="140" height="35" alt="WINE" /></h2>
+        <h2 class=" center sp"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/sp/wine_h2.png" width="262px" height="auto" alt="WINE" /></h2>
         <div class="wine">
             <p class="tit"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/wine_tit.png" width="409" height="57" alt="アルザスワイン" /></p>
             <ul id="tab_navi" class="clearfix">
@@ -359,7 +362,8 @@
 
     <div id="access" class="sec_bg sec_box">
         <div class="content">
-            <h2 class="center"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/access_h2.png" width="140" height="35" alt="ACCESS" /></h2>
+            <h2 class="center pc"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/access_h2.png" width="140" height="35" alt="ACCESS" /></h2>
+            <h2 class=" center sp"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/sp/access_h2.png" width="262px" height="auto" alt="ACCESS" /></h2>
             <div class="shared_wrap">
                 <ul class="photo_eff">
                     <li><img src="<?php echo get_template_directory_uri(); ?>/shared/img/access_photo1.jpg" width="100%" height="auto" alt="外観" /></li>
