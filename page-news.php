@@ -26,11 +26,11 @@
 
                     <div class="container">
                         <div class="images">
-                            <?php the_post_thumbnail(); ?>
+                        <a href="<?php echo get_permalink(); ?>">  <?php the_post_thumbnail(); ?> </a>
                         </div>
                         <div class="desc">
-                            <div class="date"><?php echo get_the_date(); ?></div>
-                            <div class="text"><?php echo the_content(); ?></div>
+                            <div class="date"><a href="<?php echo get_permalink(); ?>"><?php echo get_the_date(); ?></a></div>
+                            <div class="text"><a href="<?php echo get_permalink(); ?>"><?php echo the_content(); ?></a></div>
                         </div>
                     </div>
                 <?php endwhile; ?>

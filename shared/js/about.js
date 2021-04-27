@@ -1,4 +1,4 @@
-
+var top="";
 
 $(document).ready(function(){	
     var targetOffset = $('#slide_panel').offset().top;

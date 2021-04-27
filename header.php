@@ -20,10 +20,20 @@
 	<link rel="canonical" href="http://www.a-bee-restaurant.info" />
 	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/shared/js/jquery-1.9.0.min.js"></script>
 	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/shared/js/jquery.easing.1.3.js"></script>
-	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/shared/js/about.js"></script>
 	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/shared/js/socialbutton.js"></script>
 	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/shared/js/rollover.js"></script>
 	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/shared/js/smoothscroll.js"></script>
+	<?php
+$path = ($_SERVER['REQUEST_URI']);
+if($path=="/"){
+	?>
+	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/shared/js/about.js"></script>
+	<?php	
+};
+?>
+
+
+
 
 	<!--[if lt IE 9]>
 <script src="shared/js/html5shiv-printshiv.js" type="text/javascript"></script>

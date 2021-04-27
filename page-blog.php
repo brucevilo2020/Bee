@@ -24,7 +24,7 @@
 
             <?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
                 <div class="r-flex">
-                    <div class="date"><?php echo get_the_date('m.d.Y'); ?></div>
+                    <div class="date"><a href="<?php echo get_permalink(); ?>"><?php echo get_the_date('m.d.Y'); ?></a></div>
                     <div class="desc"><a href="<?php echo get_permalink(); ?>"><?php echo the_title(); ?></a></div>
                     <div class="readmore"><a href="<?php echo get_permalink(); ?>">Read more</a></div>
                 </div>

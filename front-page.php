@@ -21,6 +21,7 @@
                     <div class="container">
                         <div class="date"><?php echo get_the_date('Y-m-d'); ?></div>
                         <div class="desc"><?php echo the_title(); ?></div>
+                        <div class="more">More</div>
                     </div>
                 </a>
             </div>
@@ -37,19 +38,36 @@
 
 		</p>-->
 
-        <p>
-            尾山台のカウンターフレンチ 「a Bee アベー」では、<br />ランチ・ディナーともにコースにてご提供し、<br />
+        <p class="pc">
+            尾山台のカウンターフレンチ 「a Bee アベー」では、ランチ・ディナーともにコースにてご提供し、<br />
             ゆったり流れる時間の中でお楽しみいただけます。<br />
             食材はオーナーシェフの地元、鳥取県の野菜や境港直送の鮮魚など、旬のものを使用し、<br />
             味だけでなく見た目にも四季を感じさせる美しい盛り付けで、<br />
             季節によって見せるお料理の顔や味をご提供させていただきます。<br />
             普段の食事、デート、記念日、クリスマスディナーなどにご利用ください。<br />
         </p>
+        <p class="sp">
+            尾山台のカウンターフレンチ 「a Bee アベー」では、
+            ランチ・ディナーともにコースにてご提供し、
+            ゆったり流れる時間の中でお楽しみいただけます。
+            食材はオーナーシェフの地元、鳥取県の野菜や境港直送の鮮魚など、
+            旬のものを使用し、
 
+            味だけでなく見た目にも四季を感じさせる美しい盛り付けで、
+            季節によって見せるお料理の顔や味をご提供させていただきます。
+            普段の食事、デート、記念日、クリスマスディナーなどにご利用ください。
+        </p>
         <p>旬の食材を使ったメニューやワインの紹介、<br />
             お料理教室やコラボレーション企画などの最新情報はこちらをご覧ください。<br />
         </p>
-        <p class="bnr"><a href="#facebook"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/fb_btn.png" width="51" height="51" alt=" Facebook" class="over" /></a></p>
+        <!-- <p class="bnr"><a href="#facebook"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/fb_btn.png" width="51" height="51" alt=" Facebook" class="over" /></a></p> -->
+        <div id="facebook">
+            <h3><img src="<?php echo get_template_directory_uri(); ?>/shared/img/fb_h3.png" width="51" height="51" alt="Facebook" /></h3>
+            <div class="box">
+                <div id="fb-root"></div>
+                <div class="fb-page" data-href="https://www.facebook.com/pages/%E3%83%95%E3%83%A9%E3%83%B3%E3%82%B9%E6%96%99%E7%90%86-%C3%A0B%C3%AAe/197712040433800?fref=ts" data-width="350" data-height="500" data-hide-cover="false" data-show-facepile="false" data-show-posts="true"></div>
+            </div>
+        </div>
     </div>
 
     <!--  #lead -->
@@ -58,14 +76,26 @@
         <div class="lead content">
             <h2 class="pc"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/about_h2.png" width="380" height="55" alt="ABOUT" /></h2>
             <h2 class="sp"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/sp/about_h2.png" width="262px" height="auto" alt="ABOUT" /></h2>
-            <p>ベルギー、フランスでは<br />
+            <p class="pc">ベルギー、フランスでは<br />
                 料理の腕を磨くとともに、現地で食材が出来るまでの過程も体験しました。<br />
                 水や土、育て方ひとつで変わる、素材の味。<br />
                 食材へのこだわりだけでなく、日本にはない、<br />
                 料理への「追求の形」を目の当たりにすることができました。</p>
 
-            <p>培ってきた経験を生かし、静岡県の契約農家で栽培された旬の食材や境港直送の鮮魚など、<br />
+            <p class="pc">培ってきた経験を生かし、静岡県の契約農家で栽培された旬の食材や境港直送の鮮魚など、<br />
                 厳選した美味しい食材を使用しております。<br />
+                体に馴染むような自分らしいフランス料理をご提供させていただきます。</p>
+            
+             <p class="sp">ベルギー、
+                フランスでは料理の腕を磨くとともに、
+                現地で食材が出来るまでの過程も体験しました水や土、
+                育て方ひとつで変わる、素材の味。
+                食材へのこだわりだけでなく、日本にはない、
+                料理への「追求の形」を目の当たりにすることができました。</p>
+
+            <p class="sp">培ってきた経験を生かし、
+                静岡県の契約農家で栽培された旬の食材や境港直送の鮮魚など
+                厳選した美味しい食材を使用しております。
                 体に馴染むような自分らしいフランス料理をご提供させていただきます。</p>
 
         </div>
@@ -86,10 +116,17 @@
 
             <div id="sec2" class="m_menu2 panel content">
                 <div class="x_close"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/close.png" width="49" height="67" alt="close" /></div>
-                <h3><img src="<?php echo get_template_directory_uri(); ?>/shared/img/about_h3_2.png" width="380" height="66" alt="パリでの経験" /></h3>
-                <p class="txt">街のレストラン「レストラン・ブール・ノワゼット」。<br />
+                <h3 class=><img src="<?php echo get_template_directory_uri(); ?>/shared/img/about_h3_2.png" width="380" height="66" alt="パリでの経験" /></h3>
+                <p class="txt pc">街のレストラン「レストラン・ブール・ノワゼット」。<br />
                     美食の要素を残しながらも、季節の食材を現代的に仕上げる技を学び、<br />
                     前菜、メイン、デザートの全工程を経験したことで、<br />
+                    オリジナルフレンチへと拍車が掛かる。</p>
+
+                    <p class="txt sp">街のレストラン「レストラン・
+                        ブール・ノワゼット」。
+                    美食の要素を残しながらも、
+                    季節の食材を現代的に仕上げる技を学び、
+                    前菜、メイン、デザートの全工程を経験したことで、
                     オリジナルフレンチへと拍車が掛かる。</p>
                 <p class="photo1"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/about_photo5.jpg" width="370" height="255" alt="風景" /></p>
                 <p class="photo2"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/about_photo6.jpg" width="251" height="325" alt="風景2" /></p>
@@ -129,7 +166,8 @@
 
         </div>
         <div class="map content">
-            <h3><img src="<?php echo get_template_directory_uri(); ?>/shared/img/about_tit.png" width="380" height="40" alt="経験" /></h3>
+            <h3 class="pc"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/about_tit.png" width="380" height="40" alt="経験" /></h3>
+            <h3 class="sp"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/sp/about_tit.png" width="800" height="auto" alt="経験" /></h3>
             <div class="info1 map-none">
                 <p class="photo bnr1"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/map_photo1.jpg" width="283" height="248" alt="&quot;シェフ&quot;" class="over" /></p>
                 <p><img src="<?php echo get_template_directory_uri(); ?>/shared/img/map_tit1.png" width="283" height="35" alt="Belgique" /></p>
@@ -173,6 +211,7 @@
                             <p><img src="<?php echo get_template_directory_uri(); ?>/shared/img/map_tit2.png"  width="100%" height="auto" alt="Alsace" /></p>
                             <p class="txt">ワイナリーやシャルキュトリーなどの<br />
                                 専門店で働き、ぶどうの収穫や<br />
+                                チーズ農家で飼育から製造工程まで学んだ。</p>
                      
                     </li>
                     <li>
@@ -196,7 +235,7 @@
     <!--about -->
 
     <div id="lunch" class="content sec_box">
-             <h2 class=" center pc"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/lunch_h2.png" width="140" height="55" alt="LUNCH" /></h2>
+             <h2 class=" center pc"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/lunch_h2.png" width="140" height="35" alt="LUNCH" /></h2>
             <h2 class=" center sp"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/sp/lunch_h2.png" width="262px" height="auto" alt="LUNCH" /></h2>
         <div class="shared_wrap">
             <ul class="photo_eff">
@@ -227,7 +266,8 @@
             <p class="center">※ランチはご予約で定員になり次第、終了させていただきます。</p>
         </div>
 
-        <p class="center"><a href="#" target="_blank" rel="nofollow"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/lunch_bnr.jpg" width="390" height="40" alt="最新のランチメニュー" class="over" /></a></p>
+        <p class="center pc "><a href="#" target="_blank" rel="nofollow"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/lunch_bnr.jpg" width="390" height="40" alt="最新のランチメニュー" class="over" /></a></p>
+        <p class="center sp"><a href="#" target="_blank" rel="nofollow"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/sp/lunch_bnr.png" width="600" height="auto" alt="最新のランチメニュー" class="over" /></a></p>
     </div>
 
     <!--  #lunch -->
@@ -298,7 +338,8 @@
                     <p>※詳細はお問い合わせください。</p>
                 </div>
 
-                <p><a href="#" target="_blank" rel="nofollow"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/dinner_bnr.jpg" width="390" height="40" alt="最新のディナー" class="over" /></a></p>
+                <p class="pc"><a href="#" target="_blank" rel="nofollow"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/dinner_bnr.jpg" width="390" height="auto" alt="最新のディナー" class="over" /></a></p>
+                <p class="sp"><a href="#" target="_blank" rel="nofollow"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/sp/dinner_bnr.png" width="600" height="auto" alt="最新のディナー" class="over" /></a></p>
 
             </div>
 
@@ -314,11 +355,24 @@
         <h2 class="center pc"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/wine_h2.png" width="140" height="35" alt="WINE" /></h2>
         <h2 class=" center sp"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/sp/wine_h2.png" width="262px" height="auto" alt="WINE" /></h2>
         <div class="wine">
-            <p class="tit"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/wine_tit.png" width="409" height="57" alt="アルザスワイン" /></p>
-            <ul id="tab_navi" class="clearfix">
-                <li class="tab1"><span class="active">白ワイン Vin blanc</span></li>
+            <p class="tit">
+                <img class="pc" src="<?php echo get_template_directory_uri(); ?>/shared/img/wine_tit.png" width="409" height="57" alt="アルザスワイン" />
+                <img class="sp" src="<?php echo get_template_directory_uri(); ?>/shared/img/sp/wine_tit.png" width="409" height="57" alt="アルザスワイン" />
+            </p>
+            <ul id="tab_navi" class="clearfix tab-pc">
+                <li class="tab1 "><span class="active">白ワイン Vin blanc</span></li>
                 <li class="tab2"><span>赤ワイン Vin rouge</span></li>
             </ul>
+            <ul id="tab_navi" class="clearfix tab-sp">
+                <li class="tab1 "><span class="active">白ワイン Vin blanc</span></li>
+                <li class="tab2"><span>赤ワイン Vin rouge</span></li>
+            </ul>
+            <!-- <ul id="tab_navi " class="clearfix sp">
+                <div class="flex">
+                    <div class="left"><span class="active">白ワイン Vin blanc</span></div>
+                    <div class="right">赤ワイン Vin rouge</div>
+                </div>
+            </ul> -->
             <div id="tab_content">
                 <div class="tab tab01">
                     <ul>
@@ -354,7 +408,8 @@
                 </p>
             </div>
         </div>
-        <p class="bnr clear"><a href="#" target="_blank" rel="nofollow"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/wine_bnr.jpg" width="390" height="40" alt="最新入荷のワイン" class="over" /></a></p>
+        <p class="bnr clear pc"><a href="#" target="_blank" rel="nofollow"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/wine_bnr.jpg" width="390" height="40" alt="最新入荷のワイン" class="over" /></a></p>
+        <p class="bnr clear sp"><a href="#" target="_blank" rel="nofollow"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/sp/wine_bnr.png" width="600" height="auto" alt="最新入荷のワイン" class="over" /></a></p>
         <p class="deco"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/deco1.png" width="105" height="133" alt="ランチ1" /></p>
     </div>
 
@@ -391,7 +446,8 @@
                     定休日　火曜日、水曜日のランチ<br />
                     最寄り駅　東急大井町線尾山台駅より徒歩<span class="f_eng">3</span>分</p>
                 <p class="note2">※ランチはご予約で定員になり次第、終了させていただきます。</p>
-                <p class="tel"><a class="telhref" href="tel:0337016930" onclick="ga('send', 'event', 'tel', 'click', 'info_phone');"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/access_tel.png" width="397" height="128" alt="tel 03-3701-6930" /></a></p>
+                <p class="tel pc"><a class="telhref" href="tel:0337016930" onclick="ga('send', 'event', 'tel', 'click', 'info_phone');"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/access_tel.png" width="397" height="128" alt="tel 03-3701-6930" /></a></p>
+                <p class="tel sp"><a class="telhref" href="tel:0337016930" onclick="ga('send', 'event', 'tel', 'click', 'info_phone');"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/sp/access_tel.png" width="500px" height="auto" alt="tel 03-3701-6930" /></a></p>
                 <p class="tel_txt">
                     ※当日のキャンセルはコースの金額を100％頂戴させて頂きます。<br />
                     ※2日前までのご予約をお願いいたします。
@@ -439,7 +495,7 @@
             <h3><img src="<?php echo get_template_directory_uri(); ?>/shared/img/fb_h3.png" width="51" height="51" alt="Facebook" /></h3>
             <div class="box">
                 <div id="fb-root"></div>
-                <div class="fb-page" data-href="https://www.facebook.com/pages/%E3%83%95%E3%83%A9%E3%83%B3%E3%82%B9%E6%96%99%E7%90%86-%C3%A0B%C3%AAe/197712040433800?fref=ts" data-width="300" data-height="445" data-hide-cover="false" data-show-facepile="false" data-show-posts="true"></div>
+                <div class="fb-page" data-href="www.facebook.com/pages/%E3%83%95%E3%83%A9%E3%83%B3%E3%82%B9%E6%96%99%E7%90%86-%C3%A0B%C3%AAe/197712040433800?fref=ts" data-width="270" data-height="445" data-hide-cover="false" data-show-facepile="false" data-show-posts="true"></div>
             </div>
         </div>
 

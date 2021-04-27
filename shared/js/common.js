@@ -41,7 +41,7 @@ var iosback = function () {
 		Android = navigator.userAgent.indexOf("Android");
 	
 	if ( iPhone > 0 || iPad > 0 || ipod > 0 || Android > 0){
-		if (ID === "top") $("#fixed-image01,#fixed-image02,#fixed-image03").css("background-attachment","inherit");
+		if (ID === "top") $("#fixed-image02,#fixed-image03").css("background-attachment","inherit");
 		else  $("div.fixed-image").css("background-attachment","inherit");
 	}
 };
