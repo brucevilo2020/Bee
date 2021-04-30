@@ -23,7 +23,7 @@
 
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/shared/js/common.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/shared/js/sp_nav.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/shared/js/instagram.min.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/shared/js/instagram.min.js"></script>
 <script>
   var userFeed = new Instafeed({
     get: 'user',

@@ -116,10 +116,11 @@
 }
 #lead {
 	background: url(../img/lead_bg.png) no-repeat center top;
+	background: url(../img/lead_bg.png) no-repeat center top;
+    background-position-y: -81px;
     text-align: center;
     padding-top: 60px;
-    background-size: 117% 112%;
-    height: 550px;
+    background-size: 100% 119%;
 }
 #lead .sp {
 	display: none;
@@ -162,11 +163,11 @@
 #about {
 	background:#ee662f;
 	color: #ffffff;
-	margin-top: 400px;
+	
 }
 @media (max-width:450px) {
 	#about {
-		margin-top: 670px;
+		margin-top: 50px;
 	}	
 }
 #about .lead {
@@ -921,7 +922,7 @@ font-size: 26px;
 	padding-bottom: 110px;
 	position: relative;
 }
-@media (max-width:1700px) {
+@media (max-width:450px) {
 	
 #wine {
 	height: 1700px;
@@ -1365,6 +1366,11 @@ font-size: 26px;
 #news dd, #news dt {
 	padding-left: 10px;
 }
+@media (max-width:450px) {
+	#news dd, #news dt {
+		font-size: 26px;
+	}
+}
 #news dd {
 	background:url(../img/line_news.png) no-repeat center bottom;
 	color: #a06450;
@@ -1372,9 +1378,12 @@ font-size: 26px;
 	margin-bottom: 10px;
 }
 #facebook {
-	/* width: 30%; */
-	/* float: right;
-	margin-right: 95px; */
+	margin-right: 50px;
+}
+@media (max-width:700px) {
+	#facebook {
+		margin-right: 0;
+	}
 }
 #facebook .box {
 	padding: 20px 0;
@@ -1388,6 +1397,13 @@ font-size: 26px;
 	height: 485px;
 	background:#fff;
 }
+@media (max-width:450px) {
+	#group .box{
+		width: 460px;
+		margin: 0 auto;
+		height: 545px;
+	}
+}
 #group{
 	display: flex;
 	flex-direction: row;
@@ -1395,11 +1411,13 @@ font-size: 26px;
 	justify-content: center;
 	align-items: center;
 	align-content: center;
-	max-width: 1090px;
+	max-width: 1200px;
 	margin: 0 auto;
+	margin-bottom: 230px;
 }
 @media (max-width:450px) {
 	#group{
+		/* margin-bottom: 300px; */
 		flex-direction: column;
 	}	
 }
@@ -1408,7 +1426,9 @@ font-size: 26px;
 	padding-top: 65px;
 	text-align: center;
 }
-
+#instagram{
+	/* height: 750px; */
+}
 #instagram h3 {
 	padding-bottom: 22px;
 	padding-top: 65px;
@@ -1439,6 +1459,7 @@ font-size: 26px;
 	font-size: 18px;
 	font-weight: bold;
 }
+
 
 .pl50{
 	padding-left: 50px;

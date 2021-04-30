@@ -4,8 +4,8 @@
         <div class="r-flex">
             <div class="left_post">
                 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-                        <img src="<?php echo get_template_directory_uri(); ?>/shared/img/slider_img03.jpg" alt="slide 3" srcset="">
-
+                        <!-- <img src="<?php echo get_template_directory_uri(); ?>/shared/img/access_photo2.jpg" alt="slide 3" srcset=""> -->
+                        <?php the_post_thumbnail(); ?>
                         <div class="desc">
                             <h3><?php echo get_the_date('d.m.Y'); ?></h3>
                             <p>

@@ -57,6 +57,7 @@
 .news_section .con a .container .more{
     text-align: center;
     width: 20%;
+    font-weight: 700;
     font-size: 14px;
 }
 @media (max-width:450px) {
@@ -72,6 +73,7 @@
      
     .news_section .con a .container .more{
         font-size: 26px;
+        font-weight: 700;
     }
     
 }

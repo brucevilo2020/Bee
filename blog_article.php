@@ -81,7 +81,7 @@
     <div class="container">
         <div class="r-flex">
             <div class="left_post">
-                   <img src="./shared/img/slider_img03.jpg" alt="slide 3" srcset="">
+                   <img src="./shared/img/access_photo2.jpg" alt="slide 3" srcset="">
                
                <div class="desc">
                    <h3>20-01-2021</h3>
