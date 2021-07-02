@@ -96,6 +96,7 @@ if($path=="/"){
 			</div>
 
 			<div id="belt">
+<<<<<<< HEAD
 				
 				<ul id="globalNav">
 					<li class="current"><a href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/nav1.png" width="120" height="40" alt="TOP" class="over" /></a></li>
@@ -104,6 +105,9 @@ if($path=="/"){
 					<li class=""><a href="<?php echo is_front_page() ?  '#dinner' : esc_url(home_url('/#dinner')); ?>"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/nav4.png" width="125" height="40" alt="DINNER" class="over" /></a></li>
 					<li class="m20">
 					<h1>尾山台のフレンチ 「a Bee アベー」デート、記念日、クリスマスに</h1>
+=======
+				<h1>尾山台のフレンチ 「a Bee アベー」デート、記念日、クリスマスに</h1>
+>>>>>>> 79f2d556ba82c9516b477eb140037df700314aa9
 				<a href="<?php echo esc_url(home_url('/')); ?>">
 					<p id="logo"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/logo.png" width="166" height="134" alt=" aBee（アベー）" /></p>
 				</a>
