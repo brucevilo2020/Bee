@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <div class="title">
-    <p>NEWS</p>
+    <img src="<?php echo get_template_directory_uri(); ?>/shared/img/news_header.png" alt="">
 </div>
 <!-- body -->
 
@@ -20,23 +20,23 @@
 
     <?php if ($the_query->have_posts()) : ?>
         <div class="content">
-                <div class="r-flex">
-        <?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
-          
+            <div class="r-flex">
+                <?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
+
 
                     <div class="container">
                         <div class="images">
-                            <?php the_post_thumbnail(); ?>
+                            <a href="<?php echo get_permalink(); ?>"> <?php the_post_thumbnail(); ?> </a>
                         </div>
                         <div class="desc">
-                            <div class="date"><?php echo get_the_date(); ?></div>
-                            <div class="text"><?php echo the_content(); ?></div>
+                            <div class="date"><a href="<?php echo get_permalink(); ?>"><?php echo get_the_date(); ?></a></div>
+                            <div class="text"><a href="<?php echo get_permalink(); ?>"><?php echo the_content(); ?></a></div>
                         </div>
                     </div>
                 <?php endwhile; ?>
             <?php endif; ?>
-                </div>
             </div>
+        </div>
 </section>
 <!-- end of body -->
 <?php get_footer(); ?>

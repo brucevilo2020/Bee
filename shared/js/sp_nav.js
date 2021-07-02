@@ -42,7 +42,7 @@ var isMobile = {
 		return navigator.userAgent.match(/BlackBerry/i);
 	},
 	iOS: function () {
-		return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+		return navigator.userAgent.match(/iPhone|iPad|iPod|Safari/i);
 	},
 	Opera: function () {
 		return navigator.userAgent.match(/Opera Mini/i);
@@ -55,17 +55,17 @@ var isMobile = {
 	}
 };
 
-$(document).ready(function () {
+// $(document).ready(function () {
 	
-	if (isMobile.any()){
-		$("#nav_sp").css("display", "block");
-		$("#navTrigger").css("display", "block");
-		$("#ft_group").css("display", "block");
-	} 
-	else{
-		$("#nav_sp").css("display", "none");
-		$("#navTrigger").css("display", "none");
-		$("#ft_group").css("display", "none");
-	}
+// 	if (isMobile.any()){
+// 		$("#nav_sp").css("display", "block");
+// 		$("#navTrigger").css("display", "block");
+// 		$("#ft_group").css("display", "block");
+// 	} 
+// 	else{
+// 		$("#nav_sp").css("display", "none");
+// 		$("#navTrigger").css("display", "none");
+// 		$("#ft_group").css("display", "none");
+// 	}
 	
-});
+// });

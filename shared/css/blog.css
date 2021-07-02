@@ -1,112 +1,184 @@
-.blog{
-    width: 100%;
+.blog {
+  width: 100%;
 }
-.blog .content{
-    margin: 50px auto;
-    max-width: 1100px;
+.blog .contents {
+  margin: 50px auto;
+  max-width: 1100px;
 }
-.blog .content .r-flex{
-    display: flex;
-    justify-content: space-around;
-    font-size: 20px;
-    padding: 15px 0;
+.blog .contents .r-flex {
+  display: flex;
+  justify-content: space-around;
+  font-size: 16px;
+  padding: 15px 0;
 }
-.blog .content .r-flex .desc a{
-   text-decoration: none;
+@media (max-width: 450px) {
+  .blog .contents .r-flex {
+    font-size: 26px;
+    padding: 15px 50px;
+  }
 }
-.blog .content .r-flex .desc :hover{
-    opacity: .8;
-    background-color: #cf5023;
-    color: #f7f4ea;
+.blog .contents .r-flex .desc a {
+  text-decoration: none;
 }
-.blog .content .r-flex .readmore a{
-    text-decoration: none;
- }
-.blog .content .r-flex .readmore :hover{
-    opacity: .8;
-    background-color: #cf5023;
-    color: #f7f4ea;
+.blog .contents .r-flex .date {
+  width: 20%;
+  text-align: center;
 }
-.blog .content hr{
-    border: none;
-    height: 1px;
-    background-color: #cf5023; ;
-}    
-
-
-.blog_article{
-    width: 100%;
-    margin: 80px 0;
+.blog .contents .r-flex .desc {
+  width: 60%;
+  text-align: left;
 }
 
-.blog_article .container{
-    max-width: 1200px;
+.blog .contents .r-flex .readmore {
+  width: 20%;
+  font-weight: 700;
+  text-align: center;
+}
+
+.blog .contents .r-flex .date :hover {
+  opacity: 0.8;
+  background-color: #cf5023;
+  color: #f7f4ea;
+}
+
+.blog .contents .r-flex .desc :hover {
+  opacity: 0.8;
+  background-color: #cf5023;
+  color: #f7f4ea;
+}
+.blog .contents .r-flex .readmore :hover {
+  opacity: 0.8;
+  background-color: #cf5023;
+  color: #f7f4ea;
+}
+.blog .contents .r-flex .readmore a {
+  text-decoration: none;
+}
+.blog .contents .r-flex .readmore :hover {
+  opacity: 0.8;
+  background-color: #cf5023;
+  color: #f7f4ea;
+}
+.blog .contents hr {
+  border: none;
+  height: 1px;
+  background-color: #cf5023;
+}
+/*==========================BLOG ARTICLE =================================*/
+
+.blog_article {
+  width: 100%;
+  margin: 80px 0;
+}
+
+.blog_article .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.blog_article .container .r-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+@media (max-width: 768px) {
+  .blog_article .container .r-flex {
+    flex-direction: column;
+  }
+}
+
+.blog_article .container .r-flex .left_post {
+  width: 60%;
+  margin: 0%;
+}
+.blog_article .container .r-flex .left_post img {
+  height: auto;
+}
+@media (max-width: 768px) {
+  .blog_article .container .r-flex .left_post {
+    width: 90%;
     margin: 0 auto;
+  }
 }
 
-.blog_article .container .r-flex{
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    
+.blog_article .container .r-flex .left_post img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
+  border-radius: 10px;
 }
-
-.blog_article .container .r-flex .left_post{
-    width: 60%;
+.blog_article .container .r-flex .left_post .desc h3 {
+  text-align: left;
+  padding-top: 20px;
+  font-weight: 700;
+  font-size: 14px;
 }
-.blog_article .container .r-flex .left_post img{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 100%;
-    border-radius: 10px;
+@media (max-width: 450px) {
+  .blog_article .container .r-flex .left_post .desc h3 {
+    font-size: 26px;
+  }
 }
-.blog_article .container .r-flex .left_post .desc h3{
-    padding-top: 20px;
-    font-weight: 700;
-    font-size: 18px;
+.blog_article .container .r-flex .left_post .desc p {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 600;
 }
-.blog_article .container .r-flex .left_post .desc p{
-    font-size: 16px;
+@media (max-width: 450px) {
+  .blog_article .container .r-flex .left_post .desc p {
+    font-size: 26px;
+    font-weight: 600;
+  }
 }
 .blog_article .container .r-flex .center {
-    width: 10%;
+  width: 5%;
 }
 .blog_article .container .r-flex .right_post {
-    width: 30%;
+  width: 35%;
+}
+@media (max-width: 768px) {
+  .blog_article .container .r-flex .right_post {
+    width: 90%;
+    margin: 30px auto;
+  }
 }
 .blog_article .container .r-flex .right_post .header {
-    background-color: #cf5023;
-    color:#f7f4ea ;
-    
-   padding-left: 20px;
-   font-size: 32px;
-   font-weight: 500;
+  background-color: #cf5023;
+  color: #f7f4ea;
+  text-align: center;
+  padding-left: 20px;
+  font-size: 32px;
+  font-weight: 500;
 }
 
-.blog_article .container .r-flex .right_post .flex{
-    display: flex;
-    flex-direction: row;
-    padding: 10px 0;
+.blog_article .container .r-flex .right_post .flex {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 20px;
 }
-.blog_article .container .r-flex .right_post .flex .images{
- 
-    width: 50%;
+.blog_article .container .r-flex .right_post .flex .images {
+  width: 50%;
 }
-.blog_article .container .r-flex .right_post .flex .r-title{
-    width: 50%;
-    display: flex;
-    justify-content: center;
-   margin-left: 10px;
-   font-size: 12px;
-   font-weight: 600;
+.blog_article .container .r-flex .right_post .flex .r-title {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 600;
 }
-.blog_article .container .r-flex .right_post .flex .r-title:hover{
-    background-color:#cf5023;
-    border-radius: 10px;
-    color:#f7f4ea ;
-    cursor: pointer;
+@media (max-width: 450px) {
+  .blog_article .container .r-flex .right_post .flex .r-title {
+    font-size: 26px;
+  }
 }
-.blog_article .container .r-flex .right_post .flex .images img{
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 100%;
+.blog_article .container .r-flex .right_post .flex .r-title:hover {
+  background-color: #cf5023;
+  border-radius: 10px;
+  color: #f7f4ea;
+  cursor: pointer;
+}
+.blog_article .container .r-flex .right_post .flex .images img {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
 }

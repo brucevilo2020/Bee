@@ -1,7 +1,7 @@
 // JavaScript Document
 
 /* --------------------------------------------------------------------------------------
- @Šeíƒ†ƒjƒbƒg
+ ï¿½@ï¿½eï¿½íƒ†ï¿½jï¿½bï¿½g
 --------------------------------------------------------------------------------------- */
 
 $(function (){
@@ -21,17 +21,17 @@ $(function (){
 ID = $("body").attr("id");
 
 /* --------------------------------------------------------------------------------------
- @mac‚Ìê‡AƒtƒHƒ“ƒg‚ğƒqƒ‰ƒMƒm‚É•ÏX
+ ï¿½@macï¿½Ìê‡ï¿½Aï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½ï¿½ï¿½qï¿½ï¿½ï¿½Mï¿½mï¿½É•ÏX
 --------------------------------------------------------------------------------------- */
 
 var macfont = function () {
 	if(navigator.userAgent.indexOf("Mac") != -1 ) {
-		$("body").css("font-family",'"ƒqƒ‰ƒMƒmŠpƒS Pro W3","Hiragino Kaku Gothic Pro","Osaka","ƒƒCƒŠƒI",Meiryo,"‚l‚r ‚oƒSƒVƒbƒN","MS PGothic",sans-serif');
+		$("body").css("font-family",'"ï¿½qï¿½ï¿½ï¿½Mï¿½mï¿½pï¿½S Pro W3","Hiragino Kaku Gothic Pro","Osaka","ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½I",Meiryo,"ï¿½lï¿½r ï¿½oï¿½Sï¿½Vï¿½bï¿½N","MS PGothic",sans-serif');
 	};
 };
 
 /* --------------------------------------------------------------------------------------
- @ƒXƒ}ƒz‚Ì”wŒi•\¦
+ ï¿½@ï¿½Xï¿½}ï¿½zï¿½Ì”wï¿½iï¿½\ï¿½ï¿½
 --------------------------------------------------------------------------------------- */
 
 var iosback = function () {
@@ -47,7 +47,7 @@ var iosback = function () {
 };
 
 /* --------------------------------------------------------------------------------------
- @ƒXƒNƒ[ƒ‹
+ ï¿½@ï¿½Xï¿½Nï¿½ï¿½ï¿½[ï¿½ï¿½
 --------------------------------------------------------------------------------------- */
 
 var fadeScroll = function () {
@@ -76,7 +76,7 @@ var fadeScroll = function () {
 };
 
 /* --------------------------------------------------------------------------------------
- @ƒOƒ[ƒoƒ‹ƒiƒr
+ ï¿½@ï¿½Oï¿½ï¿½ï¿½[ï¿½oï¿½ï¿½ï¿½iï¿½r
 --------------------------------------------------------------------------------------- */
 
 var gnavi = function () {
@@ -94,7 +94,7 @@ var gnavi = function () {
 };
 
 /* --------------------------------------------------------------------------------------
- @Google Map
+ ï¿½@Google Map
 --------------------------------------------------------------------------------------- */
 
 var Gmap = function () {
@@ -103,11 +103,11 @@ var Gmap = function () {
 		var latlng2 = new google.maps.LatLng(34.693448, 135.485092);
 	
 		var myOptions = {
-			zoom : 17, /*Šg‘å”ä—¦*/
-			center : new google.maps.LatLng(34.695370, 135.48700), /*•\¦˜g“à‚Ì’†S“_*/
+			zoom : 17, /*ï¿½gï¿½ï¿½ä—¦*/
+			center : new google.maps.LatLng(34.695370, 135.48700), /*ï¿½\ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ì’ï¿½ï¿½Sï¿½_*/
 			mapTypeControlOptions : {
 				mapTypeIds : ['sample', google.maps.MapTypeId.ROADMAP]
-			}, /*•\¦ƒ^ƒCƒv‚Ìw’è*/
+			}, /*ï¿½\ï¿½ï¿½ï¿½^ï¿½Cï¿½vï¿½Ìwï¿½ï¿½*/
 			scrollwheel : false
 		};
 		var map = new google.maps.Map(document.getElementById('maps'), myOptions);
@@ -134,7 +134,7 @@ var Gmap = function () {
 			createMarker(name,latlng,icons,map);
 		}
 	
-		/*æ“¾ƒXƒ^ƒCƒ‹‚Ì“\‚è•t‚¯*/
+		/*ï¿½æ“¾ï¿½Xï¿½^ï¿½Cï¿½ï¿½ï¿½Ì“\ï¿½ï¿½tï¿½ï¿½*/
 		var styleOptions = [{
 			"stylers" : [{
 				"saturation" : -80
@@ -145,7 +145,7 @@ var Gmap = function () {
 			}]
 		}];
 		
-		var styledMapOptions = { name : 'Cocolo•Story'};
+		var styledMapOptions = { name : 'Cocoloï¿½ï¿½Story'};
 		var sampleType = new google.maps.StyledMapType(styleOptions, styledMapOptions);
 		map.mapTypes.set('sample', sampleType);
 		map.setMapTypeId('sample');
@@ -155,7 +155,7 @@ var Gmap = function () {
 };
 
 /* --------------------------------------------------------------------------------------
- @TOP‚ÌƒƒCƒ“‰æ‘œ
+ ï¿½@TOPï¿½Ìƒï¿½ï¿½Cï¿½ï¿½ï¿½æ‘œ
 --------------------------------------------------------------------------------------- */
 
 var ImageFade = function (){
@@ -171,9 +171,9 @@ var ImageFade = function (){
 		Imagettl = new Array(),
 		back_bg = $(image[0]).find("img").attr("src"),
 		
-		//‰æ‘œ‚Ì”z’u‚Æ•\¦
+		//ï¿½æ‘œï¿½Ì”zï¿½uï¿½Æ•\ï¿½ï¿½
 		firstImage = function () {
-			//‰æ‘œ‚Ì”z’u
+			//ï¿½æ‘œï¿½Ì”zï¿½u
 			for(i=0, Max=$(image).length; i<Max; i++){
 				$(image[i]).css({
 					"position" : "absolute",
@@ -183,21 +183,21 @@ var ImageFade = function (){
 				if(Max === 0) Max = $(image).length;
 			};
 			
-			//Å‰‚Ì‰æ‘œ‚ğ•\¦
+			//ï¿½Åï¿½ï¿½Ì‰æ‘œï¿½ï¿½\ï¿½ï¿½
 			$(image[0]).css("display","block");
 			$(box).css("background-image","url(" + back_bg + ")");
 		},
 		
-		//ƒtƒF[ƒhƒCƒxƒ“ƒg
+		//ï¿½tï¿½Fï¿½[ï¿½hï¿½Cï¿½xï¿½ï¿½ï¿½g
 		Fade = function (){
-			//‰Šú‰»
+			//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 			if (cnt === 0) cnt++;
 			if (cnt === $(image).length) cnt = 0;
 			
 			$(image).css("display","none");
 			var Display = $(image[cnt]).css("display");
 			
-			//”wŒi‰æ‘œ	
+			//ï¿½wï¿½iï¿½æ‘œ	
 			var bg = "";
 			if (cnt === 0) bg = $(image[0]).find("img").attr("src");
 			else bg = $(image[cnt]).find("img").attr("src");
@@ -207,17 +207,17 @@ var ImageFade = function (){
 			
 			$(image).css({"position":"absolute","z-index":"1"});
 			
-			//ƒtƒF[ƒh‰æ‘œ‚ğÅ‘O–Ê‚Ö
+			//ï¿½tï¿½Fï¿½[ï¿½hï¿½æ‘œï¿½ï¿½ï¿½Å‘Oï¿½Ê‚ï¿½
 			$(image[cnt - 1]).css("z-index",parseInt($(image).length + 1));
 				
-			//ƒtƒF[ƒh
+			//ï¿½tï¿½Fï¿½[ï¿½h
 			$(image[cnt - 1]).stop().fadeIn(fadespeed,function (){ $(box).css("background-image","url(" + bg + ")"); });
 			
-			//Œ»İ‚ÌIndex‚ğ•Ï”‚ÉŠi”[
+			//ï¿½ï¿½ï¿½İ‚ï¿½Indexï¿½ï¿½Ïï¿½ï¿½ÉŠiï¿½[
 			IndexC = (cnt - 1);
 		},
 		
-		//ƒTƒCƒY‘ã“ü
+		//ï¿½Tï¿½Cï¿½Yï¿½ï¿½ï¿½
 		boxsize = function() {
 			var timer = false;
 			
@@ -260,12 +260,12 @@ var ImageFade = function (){
 };
 
 /* --------------------------------------------------------------------------------------
- @ƒy[ƒW“àƒAƒ“ƒJ[
+ ï¿½@ï¿½yï¿½[ï¿½Wï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Jï¿½[
 --------------------------------------------------------------------------------------- */
 
 var anchor = function (){
 	
-	//ƒŠƒ“ƒNæ‚ªƒAƒ“ƒJ[‚©’²‚×‚é‚Äƒpƒ‰ƒ[ƒ^[‚ğ•t—^
+	//ï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½æ‚ªï¿½Aï¿½ï¿½ï¿½Jï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½×‚ï¿½Äƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½[ï¿½ï¿½tï¿½^
 	$("a").on("click", function() {
 		var link = $(this).attr("href");
 		
@@ -287,7 +287,7 @@ var anchor = function (){
 		};
 	});
 	
-	//ƒAƒ“ƒJ[‚¾‚Á‚½ê‡AƒAƒjƒ[ƒVƒ‡ƒ“
+	//ï¿½Aï¿½ï¿½ï¿½Jï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‡ï¿½Aï¿½Aï¿½jï¿½ï¿½ï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½
 	$(window).on("load", function (){
 		var currentURL = location.href;
 		if (currentURL.match("anchor")) {
@@ -304,7 +304,7 @@ var anchor = function (){
 };
 
 /* --------------------------------------------------------------------------------------
- @ƒy[ƒWƒgƒbƒv
+ ï¿½@ï¿½yï¿½[ï¿½Wï¿½gï¿½bï¿½v
 --------------------------------------------------------------------------------------- */
 
 var pagetop = function (){
@@ -331,13 +331,13 @@ var pagetop = function (){
 };
 
 /* --------------------------------------------------------------------------------------
- @‰æ‘œ‚Ìƒ[ƒ‹ƒI[ƒo[
+ ï¿½@ï¿½æ‘œï¿½Ìƒï¿½ï¿½[ï¿½ï¿½ï¿½Iï¿½[ï¿½oï¿½[
 --------------------------------------------------------------------------------------- */
 
 var rollover = function (){
-	$("header ul:last-child a img").not('[src*="'+ "_over" +'."]').each(function() {
+	$("header ul:last-child a img").not('[src*="'+ "" +'."]').each(function() {
 		var src = $(this).attr("src");
-		var src_on = src.substr(0, src.lastIndexOf(".")) + "_over" + src.substring(src.lastIndexOf("."));
+		var src_on = src.substr(0, src.lastIndexOf(".")) + "" + src.substring(src.lastIndexOf("."));
 		
 		$(this).on("mouseover", function() { $(this).attr("src", src_on); });
 		$(this).on("mouseout", function() { $(this).attr("src", src); });
@@ -348,9 +348,8 @@ var rollover = function (){
 		
 	$(over).on("mouseover", function() { $(this).stop().fadeTo(speed,0.7); });
 	$(over).on("mouseout", function() { $(this).stop().fadeTo(speed,1); });
-};
-/* --------------------------------------------------------------------------------------
- @ƒŠƒTƒCƒY
+}/* --------------------------------------------------------------------------------------
+ ï¿½@ï¿½ï¿½ï¿½Tï¿½Cï¿½Y
 --------------------------------------------------------------------------------------- */
 
 var resizebox = function () {
@@ -369,7 +368,7 @@ var resizebox = function () {
 		Event();
 	});
 	
-	//ƒXƒ}ƒz‚Ìƒ|ƒCƒ“ƒg’²®
+	//ï¿½Xï¿½}ï¿½zï¿½Ìƒ|ï¿½Cï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½
 	var iPhone  = navigator.userAgent.indexOf("iPhone"),
 		iPad    = navigator.userAgent.indexOf("iPad"),
 		ipod    = navigator.userAgent.indexOf("iPod"),
@@ -377,14 +376,14 @@ var resizebox = function () {
 	
 	if ( iPhone > 0 || iPad > 0 || ipod > 0 || Android > 0){
 		$("body,html").css({
-			"width"    : "1280px",
+			"width"    : "100%",
 			"overflow-x" :"hidden"
 		});
 	}
 };
 
 /* --------------------------------------------------------------------------------------
- @“§‰ßPNG
+ ï¿½@ï¿½ï¿½ï¿½ï¿½PNG
 --------------------------------------------------------------------------------------- */
 
 var IEpng = function (){

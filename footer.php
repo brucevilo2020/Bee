@@ -58,6 +58,17 @@
       controls: true
     });
   });
+  $(function() {
+    var slider = $('.about_eff').bxSlider({
+      auto: true,
+      pause: 4000,
+      speed: 1000,
+      slideWidth: 1000,
+      mode: 'horizontal',
+      controls: true
+    });
+  });
+
 
 
 
@@ -187,7 +198,7 @@
     if (d.getElementById(id)) return;
     js = d.createElement(s);
     js.id = id;
-    js.src = "http://connect.facebook.net/ja_JP/all.js#xfbml=1";
+    js.src = "https://connect.facebook.net/ja_JP/all.js#xfbml=1";
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));
 </script>

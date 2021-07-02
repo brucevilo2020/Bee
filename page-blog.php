@@ -1,12 +1,12 @@
 <?php get_header(); ?>
 <div class="title">
-    <p>BLOG</p>
+    <img src="<?php echo get_template_directory_uri(); ?>/shared/img/blog_header.png" alt="">
 </div>
 <!-- body -->
 
 <section class="blog">
 
-    <div class="content">
+    <div class="contents">
         <?php
         $paged = (get_query_var('paged')) ? absint(get_query_var('paged')) : 1;
 

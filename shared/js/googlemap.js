@@ -3,17 +3,17 @@
 function initialize() {
   var latlng = new google.maps.LatLng(35.606313,139.65419);
   var myOptions = {
-    zoom: 17, /*Šg‘å”ä—¦*/
-    center: latlng, /*•\¦˜g“à‚Ì’†S“_*/
-    mapTypeId: google.maps.MapTypeId.ROADMAP, /*•\¦ƒ^ƒCƒv‚Ìw’è*/
+    zoom: 17, /*ï¿½gï¿½ï¿½ä—¦*/
+    center: latlng, /*ï¿½\ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ì’ï¿½ï¿½Sï¿½_*/
+    mapTypeId: google.maps.MapTypeId.ROADMAP, /*ï¿½\ï¿½ï¿½ï¿½^ï¿½Cï¿½vï¿½Ìwï¿½ï¿½*/
     mapTypeControl: false,
     scrollwheel: false
   };
   var map = new google.maps.Map(document.getElementById('gmap'), myOptions);
-  /*ƒAƒCƒRƒ“İ’è*/
-  var icon = new google.maps.MarkerImage('shared/img/g_point.png',
-    new google.maps.Size(110,131),/*ƒAƒCƒRƒ“ƒTƒCƒYİ’è*/
-    new google.maps.Point(0,0)/*ƒAƒCƒRƒ“ˆÊ’uİ’è*/
+  /*ï¿½Aï¿½Cï¿½Rï¿½ï¿½ï¿½İ’ï¿½*/
+  var icon = new google.maps.MarkerImage('https://bee.hipetest.com/wp-content/themes/Bee/shared/img/g_point.png',
+    new google.maps.Size(110,131),/*ï¿½Aï¿½Cï¿½Rï¿½ï¿½ï¿½Tï¿½Cï¿½Yï¿½İ’ï¿½*/
+    new google.maps.Point(0,0)/*ï¿½Aï¿½Cï¿½Rï¿½ï¿½ï¿½Ê’uï¿½İ’ï¿½*/
     );
   var markerOptions = {
     position: latlng,
@@ -22,7 +22,7 @@ function initialize() {
     title: 'MAP'
   };
   var marker = new google.maps.Marker(markerOptions);
-  /*æ“¾ƒXƒ^ƒCƒ‹‚Ì“\‚è•t‚¯*/
+  /*ï¿½æ“¾ï¿½Xï¿½^ï¿½Cï¿½ï¿½ï¿½Ì“\ï¿½ï¿½tï¿½ï¿½*/
 var styleOptions = [{
    "stylers" : [{
     "saturation" : -20

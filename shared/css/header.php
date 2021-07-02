@@ -75,14 +75,14 @@ if($path=="/"){
 
 						<ul class="menuLst">
 							<li class="logo txt_center"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/sp_logo.png" width="100%" alt="" /></li>
-							<li><a href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/hamburger-08.png" width="100%" alt="TOP"></a></li>
-							<li><a href="<?php echo is_front_page() ?  '#about' : esc_url(home_url('/#about')); ?>"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/hamburger-09.png" width="100%" alt="ABOUT"></a></li>
-							<li><a href="<?php echo is_front_page() ?  '#lunch' : esc_url(home_url('/#lunch')); ?>"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/hamburger-10.png" width="100%" alt="LUNCH"></a></li>
-							<li><a href="<?php echo is_front_page() ?  '#dinner' : esc_url(home_url('/#dinner')); ?>"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/hamburger-11.png" width="100%" alt="DINNER"></a></li>
-							<li><a href="<?php echo is_front_page() ?  '#wine' : esc_url(home_url('/#wine')); ?>"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/hamburger-12.png" width="100%" alt="WINE"></a></li>
-							<li><a href="<?php echo is_front_page() ?  '#access' : esc_url(home_url('/#access')); ?>"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/hamburger-13.png" width="100%" alt="ACCESS"></a></li>
-							<li><a href="<?php echo get_permalink(get_page_by_path('Blog')) ?>"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/hamburger-14.png" width="100%" alt="BLOG"></a></li>
-							<li><a href="<?php echo get_permalink(get_page_by_path('News')) ?>"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/hamburger-15.png" width="100%" alt="NEWS"></a></li>
+							<li><a href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/sp_nav_01.png" width="100%" alt="TOP"></a></li>
+							<li><a href="#about"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/sp_nav_02.png" width="100%" alt="ABOUT"></a></li>
+							<li><a href="#lunch"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/sp_nav_03.png" width="100%" alt="LUNCH"></a></li>
+							<li><a href="#dinner"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/sp_nav_04.png" width="100%" alt="DINNER"></a></li>
+							<li><a href="#wine"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/sp_nav_05.png" width="100%" alt="WINE"></a></li>
+							<li><a href="#access"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/sp_nav_06.png" width="100%" alt="ACCESS"></a></li>
+							<li><a href="<?php echo get_permalink(get_page_by_path('Blog')) ?>"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/sp_nav_07.png" width="100%" alt="BLOG"></a></li>
+							<li><a href="<?php echo get_permalink(get_page_by_path('News')) ?>"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/sp_nav_08.png" width="100%" alt="NEWS"></a></li>
 							<li><a class="telhref" href="tel:0337016930" onclick="ga('send', 'event', 'tel', 'click', 'header_phone');"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/sp_tel.png" width="100%" alt="tel"></a></li>
 						</ul>
 						<span class="mat"><span class="mat1"></span><span class="mat2"></span><span class="mat3"></span><span class="mat4"></span><span class="mat5"></span></span>
@@ -99,9 +99,9 @@ if($path=="/"){
 				
 				<ul id="globalNav">
 					<li class="current"><a href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/nav1.png" width="120" height="40" alt="TOP" class="over" /></a></li>
-					<li><a href="<?php echo is_front_page() ?  '#about' : esc_url(home_url('/#about')); ?>"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/nav2.png" width="120" height="40" alt="ABOUT" class="over" /></a></li>
-					<li><a href="<?php echo is_front_page() ?  '#lunch' : esc_url(home_url('/#lunch')); ?>"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/nav3.png" width="120" height="40" alt="LUNCH " class="over" /></a></li>
-					<li class=""><a href="<?php echo is_front_page() ?  '#dinner' : esc_url(home_url('/#dinner')); ?>"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/nav4.png" width="125" height="40" alt="DINNER" class="over" /></a></li>
+					<li><a href="#about"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/nav2.png" width="120" height="40" alt="ABOUT" class="over" /></a></li>
+					<li><a href="#lunch"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/nav3.png" width="120" height="40" alt="LUNCH " class="over" /></a></li>
+					<li class=""><a href="#dinner"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/nav4.png" width="125" height="40" alt="DINNER" class="over" /></a></li>
 					<li class="m20">
 					<h1>尾山台のフレンチ 「a Bee アベー」デート、記念日、クリスマスに</h1>
 				<a href="<?php echo esc_url(home_url('/')); ?>">
@@ -111,8 +111,8 @@ if($path=="/"){
 				<p id="h_tel"><a class="telhref" href="tel:0337016930" onclick="ga('send', 'event', 'tel', 'click', 'header_phone');"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/h_tel.png" width="229" height="45" alt="tel 03-3701-6930" /></a></p>
 
 					</li>
-					<li><a href="<?php echo is_front_page() ?  '#wine' : esc_url(home_url('/#wine')); ?>"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/nav5.png" width="120" height="40" alt="WINE" class="over" /></a></li>
-					<li><a href="<?php echo is_front_page() ?  '#access' : esc_url(home_url('/#access')); ?>"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/nav6.png" alt="ACCESS" width="134" height="40" class="over" /></a></li>
+					<li><a href="#wine"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/nav5.png" width="120" height="40" alt="WINE" class="over" /></a></li>
+					<li><a href="#access"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/nav6.png" alt="ACCESS" width="134" height="40" class="over" /></a></li>
 					<li><a href="<?php echo get_permalink(get_page_by_path('Blog')) ?>"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/nav7.png" alt="BLOG" width="134" height="40" class="over" /></a></li>
 					<li class="pr20"><a href="<?php echo get_permalink(get_page_by_path('News')) ?>"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/nav8.png" alt="NEWS" width="134" height="40" class="over" /></a></li>
 
@@ -125,10 +125,10 @@ if($path=="/"){
 					<div class="fix_in">
 						<ul id="fixNav">
 							<li><a href="<?php echo esc_url(home_url('/')); ?>" class="current"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/fix_nav1.png" width="109" height="60" alt="TOP" /></a></li>
-							<li><a href="<?php echo is_front_page() ?  '#about' : esc_url(home_url('/#about')); ?>"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/fix_nav2.png" width="137" height="60" alt="ABOUT" /></a></li>
-							<li class="padd"><a href="<?php echo is_front_page() ?  '#lunch' : esc_url(home_url('/#lunch')); ?>"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/fix_nav3.png" width="137" height="60" alt="LUNCH" /></a></li>
-							<li><a href="<?php echo is_front_page() ?  '#dinner' : esc_url(home_url('/#dinner')); ?>"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/fix_nav4.png" width="150" height="60" /></a></li>
-							<li><a href="<?php echo is_front_page() ?  '#wine' : esc_url(home_url('/#wine')); ?>"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/fix_nav5.png" width="121" height="60" alt="WINE" /></a></li>
+							<li><a href="#about"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/fix_nav2.png" width="137" height="60" alt="ABOUT" /></a></li>
+							<li class="padd"><a href="#lunch"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/fix_nav3.png" width="137" height="60" alt="LUNCH" /></a></li>
+							<li><a href="#dinner"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/fix_nav4.png" width="150" height="60" /></a></li>
+							<li><a href="#wine"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/fix_nav5.png" width="121" height="60" alt="WINE" /></a></li>
 							<li><a href="<?php echo get_permalink(get_page_by_path('Blog')) ?>"><img class="pt-20" src="<?php echo get_template_directory_uri(); ?>/shared/img/nav7.png" alt="BLOG" width="134" height="40" class="over" /></a></li>
 							<li><a href="<?php echo get_permalink(get_page_by_path('News')) ?>"><img  class="pt-20" src="<?php echo get_template_directory_uri(); ?>/shared/img/nav8.png" alt="NEWS" width="134" height="40" class="over" /></a></li>
 						</ul>
@@ -137,31 +137,13 @@ if($path=="/"){
 				</div>
 			</div>
 
-			
-		
-		<?php 
-		if(is_front_page()){ ?>
 			<div id="key">
 				<ul id="slider_img">
 					<li id="slider_img01">カウンター</li>
-						<li id="slider_img02">食材</li>
-						<li id="slider_img03">料理①</li>
-						<li id="slider_img04">料理②</li>
+					<li id="slider_img02">食材</li>
+					<li id="slider_img03">料理①</li>
+					<li id="slider_img04">料理②</li>
 				</ul>
 			</div>
-		<?php }
-			else{?>
-				<div id="key">
-					<ul id="slider_img">
-						<li id="blog_new_img01">カウンター</li>
-						<li id="blog_new_img02">食材</li>
-						<li id="blog_new_img03">料理①</li>
-						<li id="blog_new_img04">料理②</li>
-					</ul>
-				</div>
-			<?php }		
-		?>
-		
-		
 		</header>
 		<main>
